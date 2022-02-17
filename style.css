@@ -1,0 +1,520 @@
+body {
+  text-align: center;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Montserrat-Bold";
+}
+p {
+  color: #8f8f8f;
+}
+
+/*Heading */
+.Big-heading {
+  font-size: 2.5rem;
+  line-height: 1.5;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+.Big-designer {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+}
+.Big-para {
+  font-size: 1.5rem;
+  line-height: 1;
+  font-family: "Montserrat-Bold";
+  font-weight: bold;
+  color: #fff;
+}
+.btn {
+  text-align: center;
+  align-items: center;
+}
+/*  Section */
+.colored-section {
+  background-color: #313552;
+  color: #fff;
+}
+.white-section {
+  background-color: #fff;
+}
+/* title Section */
+#title {
+  text-align: left;
+}
+#title .container-fluid {
+  padding: 3% 15% 7%;
+}
+
+.container-fluid {
+  padding: 7% 15%;
+}
+/* Navbar Section */
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.navbar {
+  padding-bottom: 0 0 4.5rem;
+}
+.nav-item {
+  padding: 0 18px;
+}
+.nav-link {
+  font-size: 1.2rem;
+  font-family: "Montserrat-Light";
+}
+/* Button Section */
+.Download-button {
+  margin: 5% 3% 5% 0;
+}
+.title-image {
+  width: 60%;
+  transform: rotate(0deg);
+  position: absolute;
+  right: 30%;
+}
+/* features Section */
+#features {
+  position: relative;
+  z-index: 1;
+}
+.features-title {
+  font-size: 1.5rem;
+}
+.feature-box {
+  padding: 4.5%;
+}
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #ff4c68;
+}
+/* testimonials Section */
+.testimonials {
+  background-color: #ef8172;
+}
+.testimonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.testimonial-image {
+  width: 100%;
+  border-radius: 10%;
+  margin: 20px;
+}
+/* press Section */
+#press {
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+/*Pricing Section */
+
+#pricing {
+  padding: 100px;
+}
+.pricing-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+.pricing-column {
+  padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .title-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+/*cta Section */
+
+/*footer Section */
+
+.socail-icon {
+  margin: 20px 10px;
+}
+
+/* 
+    4. Progressbar
+*/
+.progress-wrapper {
+  display: block;
+  margin: 10px 0;
+}
+
+.progress-wrapper .caption {
+  font-weight: 500;
+}
+
+.progress {
+  margin-top: 5px;
+  height: 1.25rem;
+  border: 2px solid #fff;
+  background-color: #fff;
+  box-shadow: 0 0 0 2px #f94892;
+}
+
+.progress,
+.progress-bar {
+  border-radius: 30px;
+}
+
+.progress-bar {
+  font-size: 12px;
+  background-color: #f94892;
+}
+/* 
+    4. Progressbar
+*/
+
+.fw-normal {
+  font-weight: 400;
+}
+.cl {
+  background-color: #f32727;
+  color: #fff;
+}
+.timeline {
+  position: relative;
+  display: block;
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+.timeline::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  width: 2px;
+  height: 95%;
+  background-color: #e3e5e9;
+}
+
+.timeline li {
+  position: relative;
+  display: block;
+  padding-left: 30px;
+  margin-bottom: 20px;
+}
+
+.timeline li::before {
+  content: "";
+  position: absolute;
+  top: 8px;
+  left: -8px;
+  width: 18px;
+  height: 18px;
+  background-color: #747474;
+  border: 3px solid #fff;
+  border-radius: 50%;
+}
+
+.timeline li .title {
+  width: 150px;
+  padding: 6px 20px;
+  background-color: #747474;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 30px 0 60px 30px;
+}
+
+.timeline li .details {
+  background-color: #f4f5f8;
+  margin-top: 8px;
+  padding: 20px;
+  border-radius: 4px;
+}
+
+.timeline li .details h5,
+.timeline li .details p {
+  margin-bottom: 0;
+}
+
+.timeline li .details small {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  margin-top: 5px;
+  margin-bottom: 10px;
+}
+/* 
+    4. project complete
+*/
+.page-funfact {
+  padding: 100px 0;
+  text-align: center;
+  color: #fff;
+  background-position: center center;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.page-funfact::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(41, 36, 36, 0.7);
+}
+a:hover,
+a:active {
+  color: #2184f5;
+}
+
+/* Image Responsive */
+.img-place {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  z-index: 10;
+}
+
+.img-place > img {
+  width: 100%;
+  height: auto;
+}
+
+/* 
+    2. Button
+*/
+.btn-theme {
+  padding: 10px 30px;
+  margin: 5px;
+  height: unset;
+  background-color: #747474;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 6px;
+  box-shadow: 0 0 0 2px #fff, 0 3px 9px rgba(0, 0, 0, 0.3);
+}
+
+.btn-theme:hover,
+.btn-theme:active {
+  background-color: #808080;
+  color: #fff;
+}
+
+.btn-theme:focus {
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px #747474;
+}
+
+.btn-theme.no-shadow {
+  box-shadow: none !important;
+}
+
+.btn-theme-outline {
+  padding: 10px 30px;
+  margin: 5px;
+  height: unset;
+  background-color: transparent;
+  color: #747474;
+  border: 0;
+  font-weight: 500;
+  box-shadow: 0 0 0 2px #747474;
+}
+
+.btn-theme-outline:hover {
+  background-color: #747474;
+  color: #fff;
+}
+
+.btn-theme-outline:focus {
+  background-color: #747474;
+  color: #fff;
+  box-shadow: 0 0 0 3px #fff, 0 0 0 5px #747474;
+}
+
+.btn-rounded {
+  border-radius: 40px !important;
+}
+
+/* Floating Action Button */
+.btn-fab {
+  display: inline-block;
+  padding: 0;
+  width: 50px;
+  height: 50px;
+  outline: none;
+  border: 0;
+  border-radius: 50%;
+  line-height: 50px;
+  font-weight: 500;
+  cursor: pointer;
+  box-shadow: none;
+}
+
+.btn-fab:focus,
+.btn-fab:active {
+  box-shadow: none;
+}
+
+.btn-fab.btn-sm {
+  width: 35px;
+  height: 35px;
+  line-height: 35px;
+}
+
+/* Isotope */
+.gridder {
+  position: relative;
+  display: block;
+}
+
+.grid-item {
+  display: block;
+  float: left;
+  margin: 16px 0;
+  padding: 0 16px;
+}
+
+.grid-item,
+.grid-sizer {
+  width: 100%;
+}
+
+.grid-item img {
+  width: 100%;
+  height: 100%;
+}
+
+.grid-item .img-place {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 350px;
+  height: 100%;
+  border-radius: 4px;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.grid-item .img-caption {
+  position: absolute;
+  bottom: 0;
+  padding: 12px 16px;
+  width: 100%;
+  background-color: #323131;
+  color: #fff;
+  z-index: 11;
+}
+
+.grid-item .img-caption p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.grid-item .img-caption p::before {
+  content: "\2014";
+  margin-right: 5px;
+}
+
+@media (min-width: 768px) {
+  .gridder .grid-item,
+  .gridder .grid-sizer {
+    width: 50%;
+  }
+}
+
+@media (min-width: 992px) {
+  .gridder .grid-item,
+  .gridder .grid-sizer {
+    width: 33.33333%;
+  }
+}
+/* Page */
+.vg-page {
+  position: relative;
+  display: block;
+  padding: 80px 0;
+  width: 100%;
+  overflow: hidden;
+}
+.gridder .fg-theme {
+  text-align: left;
+  text-decoration-color: red;
+  color: red;
+}
+.gridder .img-caption p {
+  text-align: left;
+  color: #fdeff4;
+}
+
+/* Filterable button */
+.filterable-button {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  max-width: 400px;
+}
+
+.filterable-button .btn {
+  padding: 5px 16px;
+  margin: 6px;
+  font-size: 14px;
+  border-radius: 40px;
+  background-color: transparent;
+  color: #747474;
+  box-shadow: 0 0 0 2px #747474;
+  font-weight: bold;
+}
+
+.filterable-button .btn:hover {
+  background-color: #747474;
+  color: #fff;
+}
+
+.filterable-button .btn.selected,
+.filterable-button .btn:focus {
+  background-color: #747474;
+  color: #fff;
+  box-shadow: 0 0 0 2px #fff, 0 0 0 4px #747474;
+}
+/* Theme color style */
+/* Theme Red */
+.bottom-container {
+  padding: 10px 0 20px;
+}
+.footer-link {
+  color: #11999e;
+  font-family: "Montserrat", sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+.copyr {
+  color: white;
+}
